@@ -1,0 +1,118 @@
+.signmodal {
+	padding: 45px;
+}
+.signmodal_popap {
+	position: relative;
+	margin: 0 auto;
+	padding: 50px;
+	max-width: 580px;
+	text-align: center;
+}
+.modal_content {
+	padding: 75px;
+	background: #fff;
+	border: 10px solid #366dec;
+}
+.form-title {padding-bottom: 50px;}
+.form-title h2 {
+	color: #31313d;
+	font-size: 17px;
+	font-family: 'GothamPro-Bold';
+	line-height: 1.9em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+}
+.form-title h2 span {
+	color: #adadc5;
+	text-decoration: line-through;
+}
+
+.form-titles {padding-bottom: 30px;}
+.form-titles h2 {
+	color: #31313d;
+	font-size: 17px;
+	font-family: 'GothamPro-Bold';
+	line-height: 1.9em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+}
+.form-titles h3 {
+	color: #31313d;
+	font-size: 17px;
+	font-family: 'GothamPro-Light';
+	line-height: 1.9em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+}
+.form-titles h2 span {
+	color: #adadc5;
+	text-decoration: line-through;
+}
+
+.modal-content {
+	position: relative;
+	text-align: left;
+	outline: none;
+}
+.form-group .field {
+	width: 100%;
+	height: 60px;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+}
+.form-group label {
+	display: block;
+	color: #000;
+	font-size: 15px;
+	margin-bottom: .1em;
+}
+.field {
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 0 0 55px;
+	margin: 0 0 20px 0;
+	vertical-align: middle;
+	border-radius: 2px;
+	width: 284px;
+	background: #f6f7fa;
+	border: 1px solid #f6f7fa;
+}
+.submit {
+	display: inline-block;
+	padding: 20px 0px;
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'GothamPro-Bold';
+	border: none;
+	border-radius: 2px;
+	background: #de3923;
+	text-decoration: none;
+	text-align: center;
+	background: #1f38db;
+    background: -moz-linear-gradient(left, #1f38db 0%, #3195ff 100%);
+    background: -webkit-linear-gradient(left, #1f38db 0% ,#3195ff 100%);
+    background: -o-linear-gradient(left, #1f38db 0%, #3195ff 100%);
+    background: -ms-linear-gradient(left, #1f38db 0%, #3195ff 100%);
+    background: linear-gradient(left, #1f38db 0%, #3195ff 100%);
+    transition: 3s;
+}
+
+/* В два столпца */
+.form-combo:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.form-combo .form-group {
+	float: left;
+	width: 48%;
+	margin-left: 4%;
+}
+.form-combo .form-group:first-child {margin-left: 0;}
